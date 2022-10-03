@@ -1,0 +1,39 @@
+.location__container{
+    max-width: 100%;
+    max-height: 100%;
+    width: 890px;
+    height: 126px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    background-color: var(--background-location);
+    position: relative;
+  }
+
+
+.locationName{
+    color: #fff;
+    font-size: 2rem;
+}
+
+.location__list{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 50px;
+}
+
+.location__items{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+}
+
+.location__atribute{
+    color: antiquewhite;
+    font-size: 1.3rem;
+}

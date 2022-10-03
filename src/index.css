@@ -1,0 +1,38 @@
+:root{
+  --background-residents: #062226;
+  --background-body: #06292e; 
+  --background-location: #062226;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  margin: 0;
+background-color: var(--background-body);
+}
+
+h1,h2,h3,h4,p,ul{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul{
+  padding-left: 0;
+  list-style: none;
+}
+
+img{
+  display: block;
+}
+
+button{
+  border: none;
+}
+
+input{
+  outline: none;
+}

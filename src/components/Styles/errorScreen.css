@@ -1,0 +1,19 @@
+.error__container{
+background: url(/src/assets/fondo.gif);
+background-repeat:round;
+overflow: hidden;
+width: 100%;
+height: 100%;
+display: flex;
+justify-content: center;
+border:2px solid #fff;
+}
+
+.notFound{
+    font-size: 5.5rem;
+    color:#36F935;
+    margin-top: 240px;
+    display: flex;
+    gap: 50px;
+}
+

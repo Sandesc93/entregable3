@@ -1,0 +1,15 @@
+.dataList{
+    width: 892px;
+    max-height: 100%;
+    top: 200px;
+    background-color: #FBFBFB;
+    position: absolute;
+    transition: 3s ease-in-out;
+    z-index: 9;
+}
+
+.dataList__list:hover{
+    color: #FBFBFB;
+    background-color: #49BB48 ;
+}
+

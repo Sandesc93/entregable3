@@ -1,0 +1,74 @@
+.resident{
+     background-color: var(--background-residents);
+    color: antiquewhite;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.resident__header{
+    position: relative;
+}
+
+.resident__container--status{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100px;
+    background-color: var(--background-residents);
+    padding: 6px;
+    border-radius: 0 10px 10px 0;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+}
+
+.resident__circle{
+    width: 15px;
+    aspect-ratio: 1;
+    border-radius: 50px;
+}   
+/*asignamos clase según detalle de la api */
+.Dead{
+    background-color: #B94343;
+}
+
+.Alive{
+    background-color: #4AB648;
+}
+
+.unknown{
+    background-color: #938686;
+}
+/* asignamos la clase en resident circle---*/
+
+.resident__body{
+    padding: 20px;
+}
+
+.resident__name{
+    font-size: 23px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.resident__list{
+    display: grid;
+    gap: 14px;
+}
+
+.resident__item{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-weight: 500;
+    padding-left: 10px;
+}
+
+.resident__atribute{
+    color: #AEAFB6;
+    transform: translateX(10px);
+}
